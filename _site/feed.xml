@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuJar</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><span class="prompt">~/</span> JuJar</h1>
+        <nav>
+            <a href="/">index</a> &nbsp;
+            <a href="/about">about</a> &nbsp;
+            <a href="/blog">blog</a>
+        </nav>
+    </header>
+    <main>
+        <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Le blog de Juliette</title>
   <link href="http://141.227.137.238/feed.xml" rel="self"/>
@@ -57,3 +75,11 @@ Ce que j&#39;aime dans les SSG, c&#39;est qu&#39;ils remettent le focus sur l&#3
   </entry>
 </feed>
 
+
+    </main>
+    <footer>
+        <span>built with intention, not wordpress</span>
+        <span><a href="/feed.xml">rss</a></span>
+    </footer>
+</body>
+</html>
