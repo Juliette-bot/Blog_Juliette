@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1><span class="prompt">~/</span> JuJar</h1>
+        <h1><span class="prompt">~/</span>juliette.dev</h1>
         <nav>
             <a href="/">index</a> &nbsp;
             <a href="/about">about</a> &nbsp;
@@ -78,7 +78,7 @@ Ce que j&#39;aime dans les SSG, c&#39;est qu&#39;ils remettent le focus sur l&#3
 
     </main>
     <footer>
-        <span>built with intention, not wordpress</span>
+        <span>built with love</span>
         <span><a href="/feed.xml">rss</a></span>
     </footer>
 </body>

@@ -25,6 +25,31 @@ header {
     align-items: baseline;
 }
 
+.section-label {
+    font-size: 0.7rem;
+    color: #00ff4155;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.post-card {
+    border-left: 2px solid #00ff4133;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.15s;
+}
+
+.post-card:hover {
+    border-left-color: #00ff41;
+}
+
+.post-meta {
+    font-size: 0.72rem;
+    color: #00ff4155;
+    margin-bottom: 0.5rem;
+}
+
 h1 {
     font-size: 1.1rem;
     color: #00ff41;
@@ -54,30 +79,6 @@ p {
     color: #c8ffc8;
 }
 
-.section-label {
-    font-size: 0.7rem;
-    color: #00ff4155;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-.post-card {
-    border-left: 2px solid #00ff4133;
-    padding: 0.9rem 1rem;
-    margin-bottom: 1rem;
-    transition: border-color 0.15s;
-}
-
-.post-card:hover {
-    border-left-color: #00ff41;
-}
-
-.post-meta {
-    font-size: 0.72rem;
-    color: #00ff4155;
-    margin-bottom: 0.5rem;
-}
 
 footer {
     margin-top: 2.5rem;
