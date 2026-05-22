@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Le blog de Juliette</title>
+  <link href="http://141.227.137.238/feed.xml" rel="self"/>
+  <link href="http://141.227.137.238/"/>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>http://141.227.137.238/</id>
+  <author>
+    <name>Juliette</name>
+  </author>
+  {%- for post in collections.posts | reverse %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ post.url | absoluteUrl('http://141.227.137.238') }}"/>
+    <id>{{ post.url | absoluteUrl('http://141.227.137.238') }}</id>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls('http://141.227.137.238') }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
+

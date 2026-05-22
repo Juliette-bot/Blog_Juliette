@@ -1,5 +1,7 @@
 ---
-title: --- Out Together -- pourquoi j'ai construit une base de données LGBTQIA+ ---
+title: Out Together -- pourquoi j'ai construit une base de données LGBTQIA+ 
+tags: posts
+date: 2026-05-21
 ---
 
 Quand j'étais petite, trouver un film avec un personnage lesbien c'était 
@@ -7,12 +9,12 @@ une expédition. Pas d'algorithme bienveillant, pas de communauté accessible,
 juste le hasard et la chance. Je cherchais des représentations qui me 
 ressemblaient, et je trouvais peu.
 
-Alors je me suis dit — et si je le faisais moi-même ?
+Alors je me suis dit, et si je le faisais moi-même ?
 
 C'est ça qui me plaît trop dans la tech : on crée quelque chose de réel, 
 que d'autres personnes peuvent utiliser. Pour moi c'est un vrai pouvoir. 
 Un peu vertigineux d'ailleurs, parce que ce pouvoir on peut s'en servir 
-dans les deux sens — on ne nommera pas les autres cas......
+dans les deux sens, on ne nommera pas les autres cas......
 
 J'ai choisi d'en faire une base de ressources LGBTQIA+ collaborative. 
 Films, séries, comptes à suivre, associations, livres. Tout ça alimenté par la 
@@ -24,5 +26,4 @@ franchement cool. Pour moi c'est pas une raison de s'arrêter,
 c'est une raison de continuer. Alors on continue !
 
 Le projet est déployé. Il est imparfait, je travaille encore dessus. Je viens 
-tout juste de m'acheter un VPS, je vais pouvoir le configurer correctement 
-pour vous mes déglingos.
+tout juste de m'acheter un VPS, je vais pouvoir le configurer correctement.
