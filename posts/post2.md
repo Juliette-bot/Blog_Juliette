@@ -1,5 +1,6 @@
 ---
 title: "Les générateurs de sites statiques, et si on arrêtait de se compliquer la vie "
+description: Ce blog tourne sur Eleventy. Donc oui, cet article sur les générateurs de sites statiques est lui-même généré statiquement
 tags: posts
 date: Created
 ---

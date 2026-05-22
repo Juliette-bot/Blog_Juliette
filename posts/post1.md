@@ -1,5 +1,6 @@
 ---
 title: Out Together -- pourquoi j'ai construit une base de données LGBTQIA+ 
+description: Petite, trouver un film avec un personnage lesbien c'était une expédition. Alors j'ai décidé de construire la ressource qui m'aurait manqué.
 tags: posts
 date: 2026-05-21
 ---
