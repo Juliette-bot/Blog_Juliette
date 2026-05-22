@@ -18,16 +18,37 @@
     <main>
         
 <div class="post-card">
-    <h2>--- Out Together -- pourquoi j'ai construit une base de données LGBTQIA+ ---</h2>
+    <h2>Les générateurs de sites statiques, et si on arrêtait de se compliquer la vie </h2>
+        <p><p>En ce moment à l'école, on explore des outils qu'on appelle les SSG pour Static Site Generators, ou générateurs de sites statiques en bon français. Et franchement, j'ai envie de vous en parler parce que ça m'a un peu changé la façon de voir le développement web.</p>
+<h2>Mais c'est quoi un SSG ?</h2>
+<p>Un générateur de sites statiques, c'est un outil qui prend du contenu souvent écrit en Markdown, et des templates, et qui produit des fichiers HTML/CSS/JS tout prêts à être servis. Pas de base de données, pas de serveur qui calcule la page à chaque requête. Juste des fichiers. Simples, rapides, solides.
+C'est un peu comme préparer tous ses repas de la semaine le dimanche plutôt que de cuisiner à la dernière minute chaque soir. Le résultat est là, disponible immédiatement.</p>
+<h2>Les principaux acteurs</h2>
+<p><strong>Eleventy (11ty)</strong>
+C'est celui avec lequel j'ai commencé, et j'en suis plutôt contente. Eleventy est minimaliste, très flexible, et il ne vous impose rien : vous choisissez votre langage de template (Nunjucks, Liquid, Markdown...), votre structure de fichiers, votre façon de travailler. C'est parfait pour apprendre parce qu'il y a peu de magie cachée — on comprend ce qu'on fait.
+Ce blog tourne d'ailleurs sur Eleventy. Meta, non ?</p>
+<p><strong>Astro</strong>
+Astro est plus récent et franchement très séduisant. Sa grande force c'est l'architecture en îles (islands architecture) : vous pouvez intégrer des composants React, Vue ou Svelte uniquement là où vous en avez besoin, sans charger du JavaScript inutilement partout. Il est orienté performance dès le départ, et sa syntaxe .astro est assez intuitive quand on vient du monde des composants.</p>
+<p><strong>Hugo</strong>
+Hugo c'est le vétéran de la bande. Écrit en Go, il est extrêmement rapide, on parle de milliers de pages générées en quelques secondes. Si vous avez un gros blog ou de la doc technique avec beaucoup de contenu, Hugo est probablement le bon choix. La courbe d'apprentissage est un peu plus raide, mais la communauté est solide.
+Pourquoi c'est cool pour une dev en formation ?
+Ce que j'aime dans les SSG, c'est qu'ils remettent le focus sur l'essentiel : le contenu et la structure. On n'est pas noyée sous des couches d'abstraction. On comprend ce qui se passe entre le fichier Markdown qu'on écrit et la page HTML qui s'affiche dans le navigateur.</p>
+<p>Et puis déployer un site statique c'est d'une simplicité désarmante. Un dossier de fichiers à copier sur un serveur, et c'est en ligne. Ce blog en est la preuve !</p>
+</p>
+</div>
+    
+
+<div class="post-card">
+    <h2>Out Together -- pourquoi j'ai construit une base de données LGBTQIA+</h2>
         <p><p>Quand j'étais petite, trouver un film avec un personnage lesbien c'était
 une expédition. Pas d'algorithme bienveillant, pas de communauté accessible,
 juste le hasard et la chance. Je cherchais des représentations qui me
 ressemblaient, et je trouvais peu.</p>
-<p>Alors je me suis dit — et si je le faisais moi-même ?</p>
+<p>Alors je me suis dit, et si je le faisais moi-même ?</p>
 <p>C'est ça qui me plaît trop dans la tech : on crée quelque chose de réel,
 que d'autres personnes peuvent utiliser. Pour moi c'est un vrai pouvoir.
 Un peu vertigineux d'ailleurs, parce que ce pouvoir on peut s'en servir
-dans les deux sens — on ne nommera pas les autres cas......</p>
+dans les deux sens, on ne nommera pas les autres cas......</p>
 <p>J'ai choisi d'en faire une base de ressources LGBTQIA+ collaborative.
 Films, séries, comptes à suivre, associations, livres. Tout ça alimenté par la
 communauté elle-même. Pas un algorithme qui décide ce qui compte. Les gens
@@ -36,15 +57,7 @@ ajoutent, partagent, et la base grandit. Trop chouette, non ?</p>
 franchement cool. Pour moi c'est pas une raison de s'arrêter,
 c'est une raison de continuer. Alors on continue !</p>
 <p>Le projet est déployé. Il est imparfait, je travaille encore dessus. Je viens
-tout juste de m'acheter un VPS, je vais pouvoir le configurer correctement
-pour vous mes déglingos.</p>
-</p>
-</div>
-    
-
-<div class="post-card">
-    <h2>Mon post 2</h2>
-        <p><p>vbcdgdf</p>
+tout juste de m'acheter un VPS, je vais pouvoir le configurer correctement.</p>
 </p>
 </div>
     

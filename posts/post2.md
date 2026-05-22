@@ -1,15 +1,15 @@
 ---
-title: Les générateurs de sites statiques : et si on arrêtait de se compliquer la vie ?
+title: "Les générateurs de sites statiques, et si on arrêtait de se compliquer la vie "
 tags: posts
 date: Created
 ---
 En ce moment à l'école, on explore des outils qu'on appelle les SSG pour Static Site Generators, ou générateurs de sites statiques en bon français. Et franchement, j'ai envie de vous en parler parce que ça m'a un peu changé la façon de voir le développement web.
 
-##Mais c'est quoi un SSG ?
+## Mais c'est quoi un SSG ?
 Un générateur de sites statiques, c'est un outil qui prend du contenu souvent écrit en Markdown, et des templates, et qui produit des fichiers HTML/CSS/JS tout prêts à être servis. Pas de base de données, pas de serveur qui calcule la page à chaque requête. Juste des fichiers. Simples, rapides, solides.
 C'est un peu comme préparer tous ses repas de la semaine le dimanche plutôt que de cuisiner à la dernière minute chaque soir. Le résultat est là, disponible immédiatement.
 
-##Les principaux acteurs
+## Les principaux acteurs
 
 **Eleventy (11ty)**
 C'est celui avec lequel j'ai commencé, et j'en suis plutôt contente. Eleventy est minimaliste, très flexible, et il ne vous impose rien : vous choisissez votre langage de template (Nunjucks, Liquid, Markdown...), votre structure de fichiers, votre façon de travailler. C'est parfait pour apprendre parce qu'il y a peu de magie cachée — on comprend ce qu'on fait.

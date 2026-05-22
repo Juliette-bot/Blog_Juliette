@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Le blog de Juliette</title>
+  <link href="http://141.227.137.238/feed.xml" rel="self"/>
+  <link href="http://141.227.137.238/"/>
+  <updated>2026-05-21T00:00:00Z</updated>
+  <id>http://141.227.137.238/</id>
+  <author>
+    <name>Juliette</name>
+  </author>
+  <entry>
+    <title>Out Together -- pourquoi j&#39;ai construit une base de données LGBTQIA+</title>
+    <link href="http://141.227.137.238/posts/post1/"/>
+    <id>http://141.227.137.238/posts/post1/</id>
+    <updated>2026-05-21T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Quand j&#39;étais petite, trouver un film avec un personnage lesbien c&#39;était
+une expédition. Pas d&#39;algorithme bienveillant, pas de communauté accessible,
+juste le hasard et la chance. Je cherchais des représentations qui me
+ressemblaient, et je trouvais peu.&lt;/p&gt;
+&lt;p&gt;Alors je me suis dit, et si je le faisais moi-même ?&lt;/p&gt;
+&lt;p&gt;C&#39;est ça qui me plaît trop dans la tech : on crée quelque chose de réel,
+que d&#39;autres personnes peuvent utiliser. Pour moi c&#39;est un vrai pouvoir.
+Un peu vertigineux d&#39;ailleurs, parce que ce pouvoir on peut s&#39;en servir
+dans les deux sens, on ne nommera pas les autres cas......&lt;/p&gt;
+&lt;p&gt;J&#39;ai choisi d&#39;en faire une base de ressources LGBTQIA+ collaborative.
+Films, séries, comptes à suivre, associations, livres. Tout ça alimenté par la
+communauté elle-même. Pas un algorithme qui décide ce qui compte. Les gens
+ajoutent, partagent, et la base grandit. Trop chouette, non ?&lt;/p&gt;
+&lt;p&gt;La représentation queer a &amp;quot;explosé&amp;quot; depuis les années 2000, et c&#39;est
+franchement cool. Pour moi c&#39;est pas une raison de s&#39;arrêter,
+c&#39;est une raison de continuer. Alors on continue !&lt;/p&gt;
+&lt;p&gt;Le projet est déployé. Il est imparfait, je travaille encore dessus. Je viens
+tout juste de m&#39;acheter un VPS, je vais pouvoir le configurer correctement.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Les générateurs de sites statiques, et si on arrêtait de se compliquer la vie </title>
+    <link href="http://141.227.137.238/posts/post2/"/>
+    <id>http://141.227.137.238/posts/post2/</id>
+    <updated>2026-05-19T08:52:19Z</updated>
+    <content type="html">&lt;p&gt;En ce moment à l&#39;école, on explore des outils qu&#39;on appelle les SSG pour Static Site Generators, ou générateurs de sites statiques en bon français. Et franchement, j&#39;ai envie de vous en parler parce que ça m&#39;a un peu changé la façon de voir le développement web.&lt;/p&gt;
+&lt;h2&gt;Mais c&#39;est quoi un SSG ?&lt;/h2&gt;
+&lt;p&gt;Un générateur de sites statiques, c&#39;est un outil qui prend du contenu souvent écrit en Markdown, et des templates, et qui produit des fichiers HTML/CSS/JS tout prêts à être servis. Pas de base de données, pas de serveur qui calcule la page à chaque requête. Juste des fichiers. Simples, rapides, solides.
+C&#39;est un peu comme préparer tous ses repas de la semaine le dimanche plutôt que de cuisiner à la dernière minute chaque soir. Le résultat est là, disponible immédiatement.&lt;/p&gt;
+&lt;h2&gt;Les principaux acteurs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;
+C&#39;est celui avec lequel j&#39;ai commencé, et j&#39;en suis plutôt contente. Eleventy est minimaliste, très flexible, et il ne vous impose rien : vous choisissez votre langage de template (Nunjucks, Liquid, Markdown...), votre structure de fichiers, votre façon de travailler. C&#39;est parfait pour apprendre parce qu&#39;il y a peu de magie cachée — on comprend ce qu&#39;on fait.
+Ce blog tourne d&#39;ailleurs sur Eleventy. Meta, non ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Astro&lt;/strong&gt;
+Astro est plus récent et franchement très séduisant. Sa grande force c&#39;est l&#39;architecture en îles (islands architecture) : vous pouvez intégrer des composants React, Vue ou Svelte uniquement là où vous en avez besoin, sans charger du JavaScript inutilement partout. Il est orienté performance dès le départ, et sa syntaxe .astro est assez intuitive quand on vient du monde des composants.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt;
+Hugo c&#39;est le vétéran de la bande. Écrit en Go, il est extrêmement rapide, on parle de milliers de pages générées en quelques secondes. Si vous avez un gros blog ou de la doc technique avec beaucoup de contenu, Hugo est probablement le bon choix. La courbe d&#39;apprentissage est un peu plus raide, mais la communauté est solide.
+Pourquoi c&#39;est cool pour une dev en formation ?
+Ce que j&#39;aime dans les SSG, c&#39;est qu&#39;ils remettent le focus sur l&#39;essentiel : le contenu et la structure. On n&#39;est pas noyée sous des couches d&#39;abstraction. On comprend ce qui se passe entre le fichier Markdown qu&#39;on écrit et la page HTML qui s&#39;affiche dans le navigateur.&lt;/p&gt;
+&lt;p&gt;Et puis déployer un site statique c&#39;est d&#39;une simplicité désarmante. Un dossier de fichiers à copier sur un serveur, et c&#39;est en ligne. Ce blog en est la preuve !&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+
