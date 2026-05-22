@@ -1,0 +1,13 @@
+---
+layout: layout.html
+---
+{% for post in collections.posts %}
+<div class="post-card">
+    <h2>{{ post.data.title }}</h2>
+        <p>{{ post.templateContent }}</p>
+</div>
+    
+{% else %}
+    <p>No posts found.</p>
+{% endfor %}
+

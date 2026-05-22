@@ -1,0 +1,42 @@
+---
+title: About
+layout: layout.html
+---
+
+Quand je raconte ma reconversion de l'ébénisterie vers le dev, beaucoup de 
+personnes me disent : "Ah ouais, rien à voir !" mais en vrai, si. Tout à voir !
+
+La patience, la précision, ne pas hésiter à recommencer quand quelque 
+chose ne fonctionne pas, résoudre des problèmes, comprendre la matière 
+dans laquelle on travaille. Avant je construisais des chaises en bois, 
+maintenant je construis des apps web. La logique c'est la même, les 
+outils ont changé. :)
+
+Un accident a mis fin à ma carrière d'ébéniste. J'aurais pu m'arrêter 
+là, mais j'ai choisi de construire autre chose.
+
+Aujourd'hui je suis en formation à Ada Tech School Lyon, une école inclusive 
+et engagée, je démarre une alternance chez Worldline fin mai 2026. Là vous 
+vous demandez la stack ? La voilà, principalement : Angular, React, TypeScript, 
+Java/Spring Boot, Python, PostgreSQL. Là vous vous dites "pétard, ça fait 
+beaucoup" — ouais, je suis d'accord, mais justement c'est trop cool, et surtout 
+ya du PYTHON !! I'm so happy !
+
+Je construis des projets qui ont du sens pour moi, comme Out Together, 
+une base de ressources LGBTQIA+ collaborative, qui finira peut-être plus tard 
+sous forme d'une grosse API pour alimenter d'autres ressources que de chers 
+collègues auront besoin. La tech c'est un vrai pouvoir, autant s'en servir 
+pour des bonnes choses.
+
+Je crois que le web peut être sobre, éthique, et au service de ceux 
+qui n'ont pas de tribune. Que coder c'est un pouvoir (un peu 
+vertigineux parfois) et qu'on choisit comment s'en servir. Moi j'ai choisi 
+"mon camp".
+
+En dehors du code : de l'escalade (débutante assumée, ma première sortie en 
+falaise m'a terrorisée et j'y retourne le weekend prochain, allez comprendre), 
+du cinéma, du militantisme féministe et queer, et beaucoup de nature. J'ai aussi 
+aménagé un van que j'ai vendu depuis, mais le projet de s'en racheter un 
+d'ici 1-3 ans est bien ancré dans un coin de ma tête.
+
+Bienvenue sur mon blog !
